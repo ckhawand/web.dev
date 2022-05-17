@@ -133,11 +133,12 @@ To achieve this, we mark our script as _async_:
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link href="style.css" rel="stylesheet" />
     <title>Critical Path: Script Async</title>
+    <script src="app.js" async></script>
   </head>
   <body>
     <p>Hello <span>web performance</span> students!</p>
     <div><img src="awesome-photo.jpg" /></div>
-    <script src="app.js" async></script>
+
   </body>
 </html>
 ```
